@@ -1,0 +1,160 @@
+.container{
+    background: #508de2;
+}
+
+
+.layout{
+     text-align: center;
+     width: 600px;
+     height: 300px;
+     margin: auto;
+}
+
+.container0 {
+    position: relative;
+    width: 400px; /* Adjust width as needed */
+}
+
+/* Style for image */
+.image {
+    width: 100%;
+    height: auto;
+}
+
+/* Style for text input */
+.text-input {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px; /* Adjust width as needed */
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.link-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .link-container a {
+    text-decoration: none;
+    margin: 0 10px;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .link-container a:hover,
+  .link-container a:active {
+    opacity: 0.7;
+  }
+  
+  .link-container img {
+    width: 50%;
+  }
+
+  .mt-2 {
+    background-color: #50c59a;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .mt-2:hover {background-color: #3e8e41}
+
+  .mt-2:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+  }
+  
+  
+  .p1 {
+    text-align: center;
+    color: rgb(29, 62, 222);
+  }
+
+  .lnk1{
+    color: white;
+  }
+
+  .advertisement-container {
+    text-align: center;
+  }
+  
+  .advertisement-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .advertisement-container {
+    text-align: center;
+  }
+  
+  .advertisement {
+    display: inline-block;
+    width: 400px; 
+    height:400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .advertisement img {
+    width: 100%; /* Make the image fill the container */
+    height: 75%;
+    border-radius: 5px 5px 0 0; /* Rounded corners only on top */
+  }
+  
+  .description {
+    padding: 10px;
+    color: black;
+  }
+  
+  .description h2 {
+    margin-top: 0;
+  }
+  
+  .description p {
+    margin-bottom: 0;
+  }
+
+  .featured-ads {
+    text-align: left;      
+    color: #06861c;
+    margin-left: 100px; 
+  }
+
+  .advertisement .description h2 {
+    color: black; 
+  }
+  .advertisement .description h3 {
+    color: grey; 
+  }
+
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    display: block;
+    margin: 0 auto; 
+    font-size: 20px; 
+    color: blue; 
+    background-color: transparent; 
+    border: 2px solid blue; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+  }

@@ -1,0 +1,120 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    background-color: #e7e7e7;;
+}
+
+.input-field {
+        width: 650px; 
+        height: 40px; 
+        font-size: 16px; 
+        padding: 10px; 
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        margin-right: 10px;
+        text-align: center;
+
+}
+
+.submit-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #007bff; 
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.form-container {
+    width: 300px; /* Adjust width as needed */
+    height: 300px;
+    margin: 20px; /* Adjust margin as needed */
+    background-color: #e7e7e7; /* White background for the form */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for a slight elevation effect */
+    padding: 20px;
+}
+
+.if1{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        font-size: 16px;
+        text-align: center;
+}
+
+.sbtn1{
+        width: 40%;
+        padding: 10px;
+        background-color:#06861c; /* Button background color */
+        color: #fff; /* Button text color */
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.b1{
+    color: #007bff;
+}
+
+.cn2{
+    display: flex;
+}
+
+.car-advertisement {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Adjust as needed */
+    background-color: #f2f2f2;
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: 30px;
+    width: 1000px;
+}
+
+.image-container {
+    flex: 1;
+    margin-right: 20px; /* Adjust as needed */
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    width: 1100px;
+    height: 300px;
+}
+
+.description {
+    flex: 2; /* Adjust the width of the description */
+}
+
+.description h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.description p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+
+    
+
